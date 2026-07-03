@@ -60,7 +60,7 @@ export default function Jobs() {
   return (
     <div className="space-y-6">
 
-      {/* Header */}
+      {}
       <div className="flex justify-between items-center">
 
         <div>
@@ -85,7 +85,7 @@ export default function Jobs() {
 
       </div>
 
-      {/* Top Cards */}
+      {}
 
       <div className="grid md:grid-cols-3 gap-5">
 
@@ -137,7 +137,7 @@ export default function Jobs() {
 
       </div>
 
-      {/* Search */}
+      {}
 
       <div className="bg-white rounded-2xl shadow p-4 flex items-center gap-3">
 
@@ -154,7 +154,7 @@ export default function Jobs() {
 
       </div>
 
-      {/* Jobs Table */}
+      {}
 
       <div className="bg-white rounded-2xl shadow overflow-hidden">
 

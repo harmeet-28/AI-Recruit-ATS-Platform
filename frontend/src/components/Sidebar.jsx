@@ -55,7 +55,7 @@ export default function Sidebar() {
   return (
     <aside className="w-72 min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white flex flex-col shadow-2xl">
 
-      {/* Logo */}
+      {}
       <div className="p-8 border-b border-slate-700">
         <div className="flex items-center gap-4">
           <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-3xl shadow-lg">
@@ -74,7 +74,7 @@ export default function Sidebar() {
         </div>
       </div>
 
-      {/* Navigation */}
+      {}
       <div className="flex-1 p-5">
         <p className="uppercase text-xs text-slate-400 tracking-widest mb-4">
           Main Menu
@@ -105,7 +105,7 @@ export default function Sidebar() {
         })}
       </div>
 
-      {/* Bottom */}
+      {}
       <div className="border-t border-slate-700 p-5">
 
         <button

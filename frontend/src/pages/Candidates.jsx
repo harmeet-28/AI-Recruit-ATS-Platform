@@ -79,7 +79,7 @@ export default function Candidates() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+      {}
 
       <div className="flex justify-between items-center">
         <div>
@@ -89,7 +89,7 @@ export default function Candidates() {
         </div>
       </div>
 
-      {/* Stats */}
+      {}
 
       <div className="grid md:grid-cols-3 gap-5">
         <div className="bg-white shadow rounded-2xl p-6">
@@ -121,7 +121,7 @@ export default function Candidates() {
         </div>
       </div>
 
-      {/* Search */}
+      {}
 
       <div className="bg-white rounded-xl shadow p-4 flex items-center gap-3">
         <Search className="text-gray-500" />
@@ -134,7 +134,7 @@ export default function Candidates() {
         />
       </div>
 
-      {/* Add Candidate */}
+      {}
 
       <div className="bg-white rounded-2xl shadow p-6">
         <div className="grid md:grid-cols-2 gap-4">
@@ -182,7 +182,7 @@ export default function Candidates() {
         </button>
       </div>
 
-      {/* Candidate Table */}
+      {}
 
       <div className="bg-white rounded-2xl shadow overflow-hidden">
         <table className="w-full">

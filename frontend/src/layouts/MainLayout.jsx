@@ -6,10 +6,10 @@ export default function MainLayout() {
   return (
     <div className="flex bg-slate-100 min-h-screen">
 
-      {/* Sidebar */}
+      {}
       <Sidebar />
 
-      {/* Main Content */}
+      {}
       <div className="flex-1 flex flex-col overflow-hidden">
 
         <Navbar />

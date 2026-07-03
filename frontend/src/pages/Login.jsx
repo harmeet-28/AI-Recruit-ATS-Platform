@@ -42,7 +42,7 @@ const login = async (e) => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700 flex items-center justify-center px-6">
       <div className="grid lg:grid-cols-2 bg-white rounded-3xl shadow-2xl overflow-hidden w-full max-w-6xl">
-        {/* Left */}
+        {}
 
         <div className="hidden lg:flex flex-col justify-center bg-gradient-to-br from-slate-900 to-slate-800 text-white p-12">
           <div className="w-20 h-20 rounded-3xl bg-blue-600 flex items-center justify-center text-5xl mb-8">
@@ -78,7 +78,7 @@ const login = async (e) => {
           </div>
         </div>
 
-        {/* Right */}
+        {}
 
         <div className="p-12 flex flex-col justify-center">
           <h2 className="text-4xl font-bold">Welcome Back</h2>

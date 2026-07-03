@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <header className="bg-white border-b border-gray-200 px-8 py-5 flex justify-between items-center shadow-sm">
 
-      {/* Left */}
+      {}
 
       <div>
 
@@ -56,11 +56,11 @@ export default function Navbar() {
 
       </div>
 
-      {/* Right */}
+      {}
 
       <div className="flex items-center gap-6">
 
-        {/* Search */}
+        {}
 
         <div className="hidden lg:flex items-center bg-gray-100 rounded-xl px-4 py-2 w-72">
 
@@ -77,7 +77,7 @@ export default function Navbar() {
 
         </div>
 
-        {/* Date */}
+        {}
 
         <div className="hidden md:flex items-center gap-2 text-gray-600">
 
@@ -91,7 +91,7 @@ export default function Navbar() {
 
         </div>
 
-        {/* Notifications */}
+        {}
 
         <button className="relative p-2 rounded-xl hover:bg-gray-100 transition">
 
@@ -101,7 +101,7 @@ export default function Navbar() {
 
         </button>
 
-        {/* Profile */}
+        {}
 
         <button className="flex items-center gap-3 hover:bg-gray-100 rounded-xl px-3 py-2 transition">
 

@@ -11,7 +11,6 @@ from app.routers import interviews
 from app.routers import dashboard
 from app.routers import auth
 
-# Create database tables
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
@@ -20,9 +19,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# -----------------------------
-# CORS Configuration
-# -----------------------------
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
@@ -36,9 +32,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# -----------------------------
-# Routers
-# -----------------------------
 app.include_router(jobs.router)
 app.include_router(candidates.router)
 app.include_router(resume.router)
@@ -46,9 +39,6 @@ app.include_router(interviews.router)
 app.include_router(dashboard.router)
 app.include_router(auth.router)
 
-# -----------------------------
-# Home Route
-# -----------------------------
 @app.get("/")
 def root():
     return {

@@ -1,9 +1,6 @@
 @import "@fontsource/inter";
 @import "tailwindcss";
 
-/* -------------------------
-   Global
--------------------------- */
 
 html,
 body,
@@ -22,9 +19,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* -------------------------
-   Reset
--------------------------- */
 
 *,
 *::before,
@@ -44,18 +38,12 @@ textarea {
   font-family: inherit;
 }
 
-/* -------------------------
-   Selection
--------------------------- */
 
 ::selection {
   background: #2563eb;
   color: white;
 }
 
-/* -------------------------
-   Scrollbar
--------------------------- */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -75,9 +63,6 @@ textarea {
   background: #1d4ed8;
 }
 
-/* -------------------------
-   Animations
--------------------------- */
 
 @keyframes fadeIn {
   from {
@@ -108,9 +93,6 @@ textarea {
   animation: slideUp 0.4s ease;
 }
 
-/* -------------------------
-   Utility Classes
--------------------------- */
 
 .glass {
   background: rgba(255, 255, 255, 0.75);
@@ -127,6 +109,10 @@ textarea {
 
 .text-gradient {
   background: linear-gradient(90deg, #2563eb, #7c3aed);
+
+  background-clip: text;
   -webkit-background-clip: text;
+
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }

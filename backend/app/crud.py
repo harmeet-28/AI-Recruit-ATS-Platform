@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Session
 from app import models, schemas
 
-# ---------------- JOBS ----------------
 
 def create_job(db: Session, job: schemas.JobCreate):
     db_job = models.Job(**job.model_dump())
@@ -37,8 +36,6 @@ def delete_job(db: Session, job_id: int):
     return job
 
 
-# ---------------- CANDIDATES ----------------
-
 def create_candidate(db: Session, candidate: schemas.CandidateCreate):
     db_candidate = models.Candidate(**candidate.model_dump())
     db.add(db_candidate)
@@ -65,7 +62,6 @@ def delete_candidate(db: Session, candidate_id: int):
     if candidate is None:
         return None
 
-    # Delete all interviews of this candidate
     db.query(models.Interview).filter(
         models.Interview.candidate_id == candidate_id
     ).delete(synchronize_session=False)
@@ -75,8 +71,6 @@ def delete_candidate(db: Session, candidate_id: int):
 
     return candidate
 
-
-# ---------------- INTERVIEWS ----------------
 
 def create_interview(db: Session, interview: schemas.InterviewCreate):
     db_interview = models.Interview(**interview.model_dump())
@@ -128,9 +122,6 @@ def delete_interview(db: Session, interview_id: int):
     db.commit()
 
     return interview
-
-
-# ---------------- DASHBOARD ----------------
 
 def dashboard_stats(db: Session):
     jobs = db.query(models.Job).count()
@@ -184,7 +175,7 @@ def create_user(db: Session, user):
     db_user = models.User(
         username=user.username,
         email=user.email,
-        password=user.password   # later we'll hash it
+        password=user.password
     )
 
     db.add(db_user)

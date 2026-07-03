@@ -100,7 +100,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-8">
 
-      {/* Header */}
+      {}
       <DashboardHeader />
 
 
@@ -116,7 +116,7 @@ export default function Dashboard() {
 
       </div>
 
-      {/* Stats */}
+      {}
 
       <div className="grid md:grid-cols-4 gap-6">
 
@@ -157,11 +157,11 @@ export default function Dashboard() {
 
       </div>
 
-      {/* Analytics */}
+      {}
 
       <div className="grid lg:grid-cols-3 gap-6">
 
-        {/* Chart */}
+        {}
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -179,7 +179,7 @@ export default function Dashboard() {
 
         </motion.div>
 
-        {/* Recent Candidates */}
+        {}
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -300,7 +300,7 @@ export default function Dashboard() {
 
       </div>
 
-      {/* Activity */}
+      {}
 
       <motion.div
         initial={{ opacity: 0 }}

@@ -1,8 +1,5 @@
 from pydantic import BaseModel
 
-
-# ---------------- JOB ----------------
-
 class JobCreate(BaseModel):
     title: str
     company: str
@@ -16,9 +13,6 @@ class JobResponse(JobCreate):
 
     class Config:
         from_attributes = True
-
-
-# ---------------- CANDIDATE ----------------
 
 class CandidateCreate(BaseModel):
     name: str
@@ -37,8 +31,6 @@ class CandidateResponse(CandidateCreate):
     class Config:
         from_attributes = True
 
-
-# ---------------- INTERVIEW ----------------
 
 class InterviewCreate(BaseModel):
     candidate_id: int

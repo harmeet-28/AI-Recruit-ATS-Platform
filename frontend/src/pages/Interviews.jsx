@@ -84,7 +84,7 @@ export default function Interviews() {
   return (
     <div className="space-y-6">
 
-      {/* Header */}
+      {}
 
       <div>
 
@@ -98,7 +98,7 @@ export default function Interviews() {
 
       </div>
 
-      {/* Stats */}
+      {}
 
       <div className="grid md:grid-cols-3 gap-5">
 
@@ -148,7 +148,7 @@ export default function Interviews() {
 
       </div>
 
-      {/* Schedule Form */}
+      {}
 
       <div className="bg-white rounded-2xl shadow p-6">
 
@@ -247,7 +247,7 @@ export default function Interviews() {
 
       </div>
 
-      {/* Search */}
+      {}
 
       <div className="bg-white rounded-2xl shadow p-4 flex items-center gap-3">
 
@@ -262,7 +262,7 @@ export default function Interviews() {
 
       </div>
 
-      {/* Table */}
+      {}
 
       <div className="bg-white rounded-2xl shadow overflow-hidden">
 
