@@ -105,9 +105,6 @@ AI-Recruit-ATS-Platform
 │   └── requirements.txt
 │
 ├── screenshots/
-│
-├── README.md
-└── .gitignore
 ```
 
 ---
@@ -193,25 +190,25 @@ DATABASE_URL=postgresql://username:password@localhost:5432/ats_db
 
 ## 📊 Dashboard Overview
 
-![Dashboard Overview](screenshots/dashboard1.png)
+![Dashboard Overview](screenshots/dashboard-overview.png)
 
 ---
 
 ## 📈 Dashboard Analytics
 
-![Dashboard Analytics](screenshots/dashboard2.png)
+![Dashboard Analytics](screenshots/dashboard-analytics.png)
 
 ---
 
 ## 💼 Jobs Management
 
-![Jobs](screenshots/jobs.png)
+![Jobs](screenshots/jobs-management.png)
 
 ---
 
-## 👥 Candidate Management
+## 👥 Candidates Management
 
-![Candidates](screenshots/candidates.png)
+![Candidates](screenshots/candidates-management.png)
 
 ---
 
@@ -223,7 +220,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/ats_db
 
 ## 📅 Interview Management
 
-![Interview](screenshots/interview.png)
+![Interview](screenshots/interview-management.png)
 
 ---
 
@@ -235,9 +232,7 @@ DATABASE_URL=postgresql://username:password@localhost:5432/ats_db
 
 ## 🤖 AI Resume Analyzer
 
-![AI Resume Analyzer](screenshots/AI_screening.png)
-
----
+![AI Resume Analyzer](screenshots/ai-screening.png)
 
 # 📡 API Endpoints
 
