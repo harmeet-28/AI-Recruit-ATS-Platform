@@ -323,7 +323,3 @@ B.Tech Computer Science & Engineering
 If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
 
 ---
-
-# 📄 License
-
-This project is developed for educational and portfolio purposes.
